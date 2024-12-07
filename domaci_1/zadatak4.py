@@ -11,8 +11,6 @@ broj = int(input("Upisi broj: "))
 
 prva_cifra = int(broj/100)
 treca_cifra = broj%10
-druga_cifra = int ( ((broj-treca_cifra)/10)%10 )
+druga_cifra = int ( (broj//10)%10 )
 
 print("Zbir cifara je ", prva_cifra+druga_cifra+treca_cifra)
-
-

@@ -12,9 +12,9 @@
 """
 
 
-broj_ljudi = int(input("Koliko ljudi zove Marko? "))
+broj_ljudi = int(input("Koliko ljudi zove Marko? ")) + 1
 
-iznos = (250+500)*broj_ljudi + 250
+iznos = (250+500)*broj_ljudi + 1500
 
 print("Ukupan iznos je: ", iznos)
 
