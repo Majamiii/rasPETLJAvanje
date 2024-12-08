@@ -34,4 +34,3 @@ else:
 print("Potrebno je ", br_bus, " autobusa, u poslednjem autobusu ima ", br_u_poslednjem, " ucenika.\n")
 
 '''
-
